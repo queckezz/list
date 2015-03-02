@@ -1,0 +1,8 @@
+
+* fold documentation
+* #sort()
+* #reduce()
+* #filter() test
+* toArray -> https://github.com/leecrossley/functional-js/blob/master/functional.js#L237
+* compose (external lib)
+x isolate tests
