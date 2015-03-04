@@ -13,7 +13,7 @@ var gulp = require('gulp')
  */
 
 gulp.task('test', function (cb) {
-  return sequence('instrument', 'mocha', cb)
+  return sequence('instrument', 'lint', 'mocha', cb)
 })
 
 gulp.task('test-cov', function (cb) {
@@ -35,7 +35,6 @@ gulp.task('lint', function () {
   return gulp.src('lib/*.js')
     .pipe(eslint('eslint.json'))
     .pipe(eslint.format())
-    .pipe(eslint.failOnError())
 })
 
 gulp.task('instrument', function () {
