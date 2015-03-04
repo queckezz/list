@@ -1,7 +1,5 @@
 
-require('babel/register')
-
-var contains = require('../lib/contains')
+var contains = require('../lib').contains
 
 var Assert = require('assert')
 var Type = require('is')

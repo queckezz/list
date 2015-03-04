@@ -1,7 +1,5 @@
 
-require('babel/register')
-
-var last = require('../lib/last')
+var last = require('../lib').last
 
 var Assert = require('assert')
 var Type = require('is')

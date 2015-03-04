@@ -1,7 +1,5 @@
 
-require('babel/register')
-
-var tail = require('../lib/tail')
+var tail = require('../lib').tail
 
 var Assert = require('assert')
 

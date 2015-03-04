@@ -1,8 +1,13 @@
 
-* fold documentation
+* #zip()
+* test #slice()
+* fold documentation & test
 * #sort()
-* #reduce()
 * #filter() test
-* toArray -> https://github.com/leecrossley/functional-js/blob/master/functional.js#L237
+* #toArray() -> https://github.com/leecrossley/functional-js/blob/master/functional.js#L237
 * compose (external lib)
+
+x test #islist()
+x #reduce() [foldl / foldr()] 
 x isolate tests
+x shallow copy via slice(0, list)

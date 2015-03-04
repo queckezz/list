@@ -1,7 +1,5 @@
 
-require('babel/register')
-
-var head = require('../lib/head')
+var head = require('../lib').head
 
 var Assert = require('assert')
 
