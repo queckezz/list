@@ -7,7 +7,7 @@
 [![License][license-image]][license-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-_{{ description }}_
+Functions for interacting with arrays in a functional way.
 
 ## Installation
 
@@ -17,7 +17,7 @@ $ npm install structs-list
 
 ## Usage
 
-Documentation is available [./docs/index.md](here).
+Documentation is available [here](./docs/index.md).
 
 ## Tests
 
@@ -27,19 +27,19 @@ $ npm test
 
 ## License
 
-[{{ license }}][license-url]
+[MIT][license-url]
 
 [npm-image]: https://img.shields.io/npm/v/structs-list.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/structs-list
 
-[david-image]: http://img.shields.io/david/{{ repo }}/list.svg?style=flat-square
-[david-url]: https://david-dm.org/{{ repo }}/list
+[david-image]: http://img.shields.io/david/structs/list.svg?style=flat-square
+[david-url]: https://david-dm.org/structs/list
 
 [license-image]: http://img.shields.io/npm/l/list.svg?style=flat-square
 [license-url]: ./license
 
-[travis-image]: https://img.shields.io/travis/{{ repo }}/list.svg?style=flat-square
-[travis-url]: https://travis-ci.org/{{ repo }}/list
+[travis-image]: https://img.shields.io/travis/structs/list.svg?style=flat-square
+[travis-url]: https://travis-ci.org/structs/list
 
-[coveralls-image]: https://img.shields.io/coveralls/{{ repo }}/list/master.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/{{ repo }}/list?branch=master
+[coveralls-image]: https://img.shields.io/coveralls/structs/list/master.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/structs/list?branch=master
