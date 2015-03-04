@@ -7,7 +7,7 @@
 [![License][license-image]][license-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-Functions for interacting with arrays in a functional way.
+Compact functions for interacting with arrays in a functional way. They leverage from already existing functions in ES5.
 
 ## Installation
 
@@ -24,6 +24,10 @@ Documentation is available [here](./docs/index.md).
 ```bash
 $ npm test
 ```
+
+## Prior work
+
+* [Ramda](https://github.com/ramda/ramda)
 
 ## License
 
