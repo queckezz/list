@@ -3,10 +3,10 @@
 * test #slice()
 * fold documentation & test
 * #sort()
-* #filter() test
 * #toArray() -> https://github.com/leecrossley/functional-js/blob/master/functional.js#L237
 * compose (external lib)
 
+x #filter() test
 x test #islist()
 x #reduce() [foldl / foldr()] 
 x isolate tests
