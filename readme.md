@@ -39,7 +39,7 @@ $ npm test
 [david-image]: http://img.shields.io/david/structs/list.svg?style=flat-square
 [david-url]: https://david-dm.org/structs/list
 
-[license-image]: http://img.shields.io/npm/l/list.svg?style=flat-square
+[license-image]: http://img.shields.io/npm/l/structs-list.svg?style=flat-square
 [license-url]: ./license
 
 [travis-image]: https://img.shields.io/travis/structs/list.svg?style=flat-square
