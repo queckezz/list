@@ -2,98 +2,98 @@
 
 <!-- Start lib\index.js -->
 
-## slice(from, to, list)
+## slice(from, to, array)
 
-Return the elements `from` to `to` in a given `list`.
+Return the elements `from` to `to` in a given `array`.
 
 ### Params:
 
 * **Int** *from* Starting index
 * **Int** *to* Ending index
-* **Array** *list* List to take elements from
+* **Array** *array* Array to take elements from
 
 ### Return:
 
 * **Array** The elements `from` to `to`
 
-## drop(n, list)
+## drop(n, array)
 
-Slice `n` items from `list`, returning a new array.
+Slice `n` items from `array` returning the sliced
+elements as a new array.
 
 ### Params:
 
 * **Int** *n* How many elements to drop
-* **Array** *list* Array to drop from
+* **Array** *array* Array to drop from
 
 ### Return:
 
-* **Array** 
+* **Array** New Array with the dropped items
 
 ## copy
 
-Shallow copy of an array.
+Shallow copy of a given `array`.
 
 ### Params:
 
-* **Array** *list* Array that you want to copy
+* **Array** *array* Array that you want to copy
 
 ### Return:
 
-* **Array** Copied `list` array
+* **Array** Copied `array` array
 
-## nth(n, list)
+## nth(n, array)
 
-Takes a `list` and return the `n`th item in the list.
+Returns the `n`th element in the given `array`.
 
 ### Params:
 
 * **Int** *n* Index
-* **Array** *list* Array to operate on
+* **Array** *array* Array to operate on
 
 ### Return:
 
 * **Any** `n`th element
 
-## head(list)
+## head(array)
 
-return the first element in a given array.
+Returns the first element in the given `array`.
 
 ### Params:
 
-* **Array** *list* Array to operate on
+* **Array** *array* Array to operate on
 
 ### Return:
 
 * **Any** First element from the array
 
-## last()
+## last(array)
 
-return the last element in a given array.
-
-### Params:
-
-* **Array** ** 
-
-### Return:
-
-* **Any** [Last element]
-
-## tail(list)
-
-Takes a `list` and return a new array containing all
-elements except the first.
+Returns the last element in a given `array`.
 
 ### Params:
 
-* **Array** *list* 
+* **Array** *array* Array to operate on
 
 ### Return:
 
-* **Array** 
+* **Any** Last element from `array`
+
+## tail(array)
+
+Returns all elements in an `array` except the first.
+
+### Params:
+
+* **Array** *array* Array to operate on
+
+### Return:
+
+* **Array** All items except the first
 
 ## concat(a, b)
 
-return a new array containing `a` and `b`.
+Returns a new array containing both `a` and `b`.
 
 ### Params:
 
@@ -104,74 +104,75 @@ return a new array containing `a` and `b`.
 
 * **Array** 
 
-## append(item, list)
+## append(element, array)
 
-Append given `item` to `list` returning a new array.
-
-### Params:
-
-* **Any** *item* 
-* **Array** *list* 
-
-### Return:
-
-* **Array** 
-
-## prepend(item, list)
-
-Prepend given `item` to `list` returning a new array.
+Returns a new `array` with the given `element` appended.
 
 ### Params:
 
-* **Any** *item* 
-* **Array** *list* 
+* **Any** *element* Element to append
+* **Array** *array* Array to operate on
 
 ### Return:
 
-* **Array** 
+* **Array** Array with the given `element` appended
 
-## reverse(list)
+## prepend(element, array)
 
-Takes a `list` and return a new array with the items
+Returns a new `array` with the given `element`
+prepended.
+
+### Params:
+
+* **Any** *element* Element to prepend
+* **Array** *array* Array to operate on
+
+### Return:
+
+* **Array** Array with the given `element` prepended
+
+## reverse(array)
+
+Returns a new Array with the given `array`s elements
 reversed.
 
 ### Params:
 
-* **Array** *list* 
+* **Array** *array* Array to operate on
 
 ### Return:
 
-* **Array** 
+* **Array** Array with the given `array` reversed
 
-## filter(fn, list)
+## filter(fn, array)
 
-return a new list containing only items that match a
+Returns a new `array` containing only items that match a
 given function.
 
 ### Params:
 
-* **Function** *fn* 
-* **Array** *list* 
+* **Function** *fn* Filter function
+* **Array** *array* Array to operate on
 
 ### Return:
 
-* **Array** 
+* **Array** Filtered array 
 
-## map(fn, list)
+## map(fn, array)
 
-Calling `fn` on each element in `list` returning a
+Calling `fn` on each element in `array` returning a
 modified new array.
 
 ### Params:
 
 * **Function** *fn* 
-* **Array** *list* 
+* **Array** *array* 
 
 ### Return:
 
 * **Array** 
 
-## foldl(initial, combinator, list)
+## foldl(initial, combinator, array)
 
 foldl executes the `combinator` function once for each
 element present in the array.
@@ -180,45 +181,45 @@ element present in the array.
 - previousVal
 - currentVal
 - index
-- list reference
+- array reference
 
 ### Params:
 
 * **Any** *initial* 
 * **Function** *combinator* 
-* **Array** *list* 
+* **Array** *array* 
 
 ## foldr()
 
 Same as foldl expect starting from the last element in
 the array
 
-## contains(match, list)
+## contains(match, array)
 
-Check if `match` is in `list` returning a Boolean.
+Check if `match` is in `array` returning a Boolean.
 
 ### Params:
 
-* **Any** *match* [item to search for in `list`]
-* **Array** *list* 
+* **Any** *match* [item to search for in `array`]
+* **Array** *array* 
 
 ### Return:
 
 * **Boolean** 
 
-## isempty(list)
+## isempty(array)
 
-Checks whether the list has zero elements.
+Checks whether the given `array` has zero elements.
 
 ### Params:
 
-* **Array** *list* 
+* **Array** *array* 
 
 ### Return:
 
 * **Boolean** 
 
-## islist(a)
+## isarray(a)
 
 Checks if `a` is an array.
 
