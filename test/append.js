@@ -1,6 +1,5 @@
 
-var append = require('../lib').append
-
+var append = require('../lib/append')
 var Assert = require('assert')
 var Type = require('is')
 

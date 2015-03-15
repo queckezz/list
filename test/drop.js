@@ -1,6 +1,5 @@
 
-var drop = require('../lib').drop
-
+var drop = require('../lib/drop')
 var Assert = require('assert')
 var Type = require('is')
 

@@ -1,6 +1,5 @@
 
-var prepend = require('../lib').prepend
-
+var prepend = require('../lib/prepend')
 var Assert = require('assert')
 var Type = require('is')
 

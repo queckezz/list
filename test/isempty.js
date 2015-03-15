@@ -1,6 +1,5 @@
 
-var isempty = require('../lib').isempty
-
+var isempty = require('../lib/isempty')
 var Assert = require('assert')
 
 describe('#isempty()', function () {

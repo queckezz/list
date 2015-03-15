@@ -1,6 +1,5 @@
 
-var reverse = require('../lib').reverse
-
+var reverse = require('../lib/reverse')
 var Assert = require('assert')
 
 describe('#reverse()', function () {

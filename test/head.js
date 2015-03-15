@@ -1,6 +1,5 @@
 
-var head = require('../lib').head
-
+var head = require('../lib/head')
 var Assert = require('assert')
 
 describe('#head()', function () {

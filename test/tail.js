@@ -1,6 +1,5 @@
 
-var tail = require('../lib').tail
-
+var tail = require('../lib/tail')
 var Assert = require('assert')
 
 describe('#tail()', function () {

@@ -1,7 +1,6 @@
 
-var contains = require('../lib').contains
-var filter = require('../lib').filter
-
+var contains = require('../lib/contains')
+var filter = require('../lib/filter')
 var Assert = require('assert')
 var Type = require('is')
 

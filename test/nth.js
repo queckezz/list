@@ -1,6 +1,5 @@
 
-var nth = require('../lib').nth
-
+var nth = require('../lib/nth')
 var Assert = require('assert')
 var Type = require('is')
 

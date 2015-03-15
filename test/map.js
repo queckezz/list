@@ -1,6 +1,5 @@
 
-var map = require('../lib').map
-
+var map = require('../lib/map')
 var Assert = require('assert')
 var Type = require('is')
 

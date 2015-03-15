@@ -1,6 +1,5 @@
 
-var concat = require('../lib').concat
-
+var concat = require('../lib/concat')
 var Assert = require('assert')
 var Type = require('is')
 
