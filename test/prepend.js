@@ -1,7 +1,8 @@
-
 var prepend = require('../lib/prepend')
 var Assert = require('assert')
 var Type = require('is')
+
+/*eslint-env mocha */
 
 describe('#prepend()', function () {
   var fst = 1

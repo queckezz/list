@@ -1,7 +1,8 @@
-
 var append = require('../lib/append')
 var Assert = require('assert')
 var Type = require('is')
+
+/*eslint-env mocha */
 
 describe('#append()', function () {
   var fst = 1

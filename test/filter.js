@@ -1,12 +1,13 @@
-
 var contains = require('../lib/contains')
 var filter = require('../lib/filter')
 var Assert = require('assert')
 var Type = require('is')
 
+/*eslint-env mocha */
+
 describe('#filter()', function () {
   var fst = [1, 2, 3, 4, 5]
-  
+
   it('should be curried', function () {
     var uneven = filter(function (x) { return x % 2})
     Assert.ok(Type.fn(uneven))

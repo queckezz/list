@@ -1,7 +1,8 @@
-
 var map = require('../lib/map')
 var Assert = require('assert')
 var Type = require('is')
+
+/*eslint-env mocha */
 
 describe('#map()', function () {
   var noop = function () {}

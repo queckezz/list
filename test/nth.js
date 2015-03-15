@@ -1,7 +1,8 @@
-
 var nth = require('../lib/nth')
 var Assert = require('assert')
 var Type = require('is')
+
+/*eslint-env mocha */
 
 describe('#nth()', function () {
   var arr = [1, 2, 4, 8, 16]

@@ -1,12 +1,13 @@
-
 var concat = require('../lib/concat')
 var Assert = require('assert')
 var Type = require('is')
 
+/*eslint-env mocha */
+
 describe('#concat()', function () {
   var fst = [1, 2]
   var sec = [3, 4]
-  
+
   it('should be curried', function () {
     var cfst = concat(fst)
     Assert.ok(Type.fn(cfst))

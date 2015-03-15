@@ -1,7 +1,8 @@
-
 var contains = require('../lib/contains')
 var Assert = require('assert')
 var Type = require('is')
+
+/*eslint-env mocha */
 
 describe('#contains()', function () {
   var arr = [4, 1, 2]

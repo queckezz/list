@@ -1,6 +1,7 @@
-
 var isempty = require('../lib/isempty')
 var Assert = require('assert')
+
+/*eslint-env mocha */
 
 describe('#isempty()', function () {
   it('should check whether an array is empty', function () {

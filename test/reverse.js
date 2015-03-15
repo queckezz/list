@@ -1,10 +1,11 @@
-
 var reverse = require('../lib/reverse')
 var Assert = require('assert')
 
+/*eslint-env mocha */
+
 describe('#reverse()', function () {
   var fst = [1, 2]
-  
+
   it('should not mutate the original array', function () {
     reverse(fst)
     Assert.deepEqual(fst, [1, 2])

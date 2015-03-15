@@ -1,7 +1,8 @@
-
 var drop = require('../lib/drop')
 var Assert = require('assert')
 var Type = require('is')
+
+/*eslint-env mocha */
 
 describe('#drop()', function () {
   var arr = [1, 2, 4, 8, 16]
