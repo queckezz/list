@@ -17,6 +17,12 @@ $ npm install structs-list
 
 ## Usage
 
+By using a simple prepublish script which moves all functions from `lib/` to the toplevel you can require functions like the following:
+
+```js
+var append = require('structs-list/append')
+```
+
 Documentation is available [here](./docs/index.md).
 
 ## Tests
