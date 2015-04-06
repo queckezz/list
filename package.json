@@ -20,6 +20,7 @@
   "scripts": {
     "ci": "node ../repository-build/bin/index.js ci",
     "prepublish": "node ../repository-build/bin/index.js prepublish",
+    "postpublish": "node ../repository-build/bin/index.js postpublish",
     "test": "node ../repository-build/bin/index.js test"
   },
   "keywords": [
