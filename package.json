@@ -18,8 +18,9 @@
     "run-sequence": "^1.0.2"
   },
   "scripts": {
-    "ci": "./node_modules/.bin/gulp ci",
-    "test": "./node_modules/.bin/gulp test"
+    "ci": "node ../repository-build/bin/index.js ci",
+    "prepublish": "node ../repository-build/bin/index.js prepublish",
+    "test": "node ../repository-build/bin/index.js test"
   },
   "keywords": [
     "functional",
